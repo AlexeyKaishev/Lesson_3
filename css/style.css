@@ -1,0 +1,118 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+/*======================================================================*/
+header h1 + * {
+   font-size: 22px;
+   font-style: italic;
+   padding-bottom: 15px;
+}
+
+.navlist li {
+   padding: 0 0 10px 15px;
+}
+
+.navlist {
+   margin-bottom: 20px;
+}
+
+/*================== MAIN  =========================*/
+
+p {
+   margin-bottom: 10px;
+   font-size: 16px;
+}
+
+img {
+   margin-bottom: 40px;
+}
+
+main h2{
+   font-weight: bold;
+   font-size: 18px;
+   font-family: serif;
+   margin-bottom: 20px;
+}
+
+/*===============first==================*/
+#yellow {
+
+   color: yellow;
+}
+
+#grey {
+   color: grey;
+}
+
+/*=================second====================*/
+
+#dusty {
+   color: #B7C2B8;
+}
+
+/*==============third========================*/
+
+#braveearth {
+   color: #B8B3A7;
+}
+
+.third > p {
+   font-weight: bold;
+}
+
+.third ul {
+   border-left: 1px solid black;
+}
+.third ul li {
+   margin-bottom: 7px;
+   margin-left: 5px;
+}
+
+/*=================fourth===================*/
+
+#soft {
+   color: #514E48;
+}
+
+/*=============five==============*/
+
+#urbanbronze {
+   color: #D9D7D5;
+}
+
+.five p span {
+   font-style: italic;
+}
+
+/*================six===============================*/
+
+#deepred {
+   color: #6C100D;
+}
+
+#worm {
+   color: #C78859;
+}
+
+/*==============seven=====================*/
+
+#twentyone {
+   display: inline-block;
+   padding: 10px 0;
+   background: linear-gradient(to left, #7E8883, #9B7F74, #BEB3A4, #FDF6E9, #AFC7C8);
+}
